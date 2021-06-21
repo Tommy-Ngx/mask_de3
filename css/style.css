@@ -1,0 +1,48 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Apercu;
+}
+
+#header {
+  align-items: center;
+  padding: 10px;
+  height: 80px;
+  padding-left: 300px;
+  padding-right: 50px;
+}
+
+#header .logo {
+  max-height: 140px;
+align-items: center; 
+align: center;
+}
+
+#result-container {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button:active, .button:focus {
+  border: none;
+}

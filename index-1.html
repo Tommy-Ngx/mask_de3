@@ -1,0 +1,47 @@
+<!--
+Copyright (c) 2018 ml5
+
+This software is released under the MIT License.
+https://opensource.org/licenses/MIT
+-->
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Covid 19 Mask Detection</title>
+  <script src="js/tfjs.min.js"></script>
+</head>
+
+<body style="padding-top:55px"> 
+  <div id="header">
+    <div>
+      <img class="logo" src="images/2.JPG" style="display:none"/>
+    </div>
+    <!--<div>
+      <h1>Covid 19 Mask Detection</h1>
+    </div>-->
+    <div>
+      <!--<img class="logo" src="images/pulses.png" />-->
+	      <img class="logo" src="images/1.JPG" />
+
+    </div>
+  </div>
+  <div class="content">
+    <div id="result-container">
+      <video id="main-video" style="display:none" width="1600" height="800" autoplay></video>
+      <canvas id="main-canvas"></canvas>
+    </div>
+  </div>
+  <div id="footer">
+    <button class="button" onclick="switchCamera()">Switch Camera</button>
+    <button class="button" onclick="downloadImage()">Save Violation</button>
+  </div>
+  <script src="js/detection.js"></script>
+  <script src="js/video.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
